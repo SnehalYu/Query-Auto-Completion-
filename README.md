@@ -46,13 +46,7 @@ The Query Auto-Completion (QAC) model implemented in this repository uses a comb
 
 - **Bigram Frequency**: The model counts the occurrences of each bigram in the dataset.
 - **Trigram Frequency**: Similarly, the model counts the occurrences of each trigram.
-- **Probability Table**: A probability table is constructed where each entry (i, j) represents the probability of the j-th character given the i-th bigram. This is calculated using the formula:
-  
-  \[
-  P(c_k | b_{ij}) = \frac{\text{count}(b_{ij}c_k) + 1}{\text{count}(b_{ij}) + \text{num_chars}}
-  \]
-
-  where \( b_{ij} \) is a bigram, \( c_k \) is a character, and `num_chars` is the total number of unique characters.
+- **Probability Table**: A probability table is constructed where each entry (i, j) represents the probability of the j-th character given the i-th bigram. 
 
 ### Text Generation
 
