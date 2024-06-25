@@ -25,7 +25,7 @@ To run the code, you need to have Python 3.x installed along with the following 
 - `numpy`
 
 ## Usage
-The code and detailed usage instructions are provided in the Usage.ipynb Jupyter Notebook.
+The code and detailed usage instructions are provided in the [Usage.ipynb](Usage.ipynb) Jupyter Notebook.
 
 ## Model Details
 
@@ -115,8 +115,8 @@ By leveraging Shakespearian data, the QAC model aims to provide accurate and con
 
 ## Training 
 
-The code and detailed usage instructions are provided in the Training.ipynb Jupyter Notebook.
+The code and detailed usage instructions are provided in the [Training](training.ipynb) Jupyter Notebook.
 
 ## Generating Text
 
-The code and detailed usage instructions are provided in the Generating.ipynb Jupyter Notebook.
+The code and detailed usage instructions are provided in the [Generation](Generating.ipynb) Jupyter Notebook.
